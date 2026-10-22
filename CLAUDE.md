@@ -2,7 +2,7 @@
 
 - Max 3 levels of indentation. When a 4th appears, return early with guard clauses, or extract the nested block into a named function.
 - No comments that explain *what* the code does. When you want one, extract the code into a function and let the name replace the comment.
-- Comments explain *why* only, and only for: a workaround (with a ticket number), a counterintuitive business rule, or a deliberately-avoided obvious approach.
+- Comments explain *why* only, and only for: a workaround (with a ticket number), a counterintuitive business rule, or a deliberately-avoided obvious approach. Comments should not span the entire page with a maximum of 2 lines per comment.
 - Public APIs and complex data structures must have doc comments (params, return, exceptions, side effects).
 - Don't commit commented-out code. No `TODO` / `FIXME` — file a ticket, put the number in the code.
 - Banned names: `data`, `info`, `temp`, `obj`, `val`, `res`, `stuff`. No invented abbreviations. Don't put the type in the name (no `strName`, `userList`).
