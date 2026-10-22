@@ -1,0 +1,2 @@
+# Structure
+Your code should be highly modularized. Each python file if not the main script should not have lines exceeding 2500 lines. Every folder should have an output folder, a plot folder with all the plotting functions and multiple folders for modules. Look at the plotting folder for details.
