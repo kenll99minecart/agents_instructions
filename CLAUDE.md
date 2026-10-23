@@ -42,6 +42,7 @@
 
 - **IMPORTANT: If you're uncertain, don't write the code. Ask first, or write a minimal check first.**
 - Before writing a file, Look at what functions need to be written first, group every overlapping functions and look for existing implmentations of the simpler versions of the code in each functions and at each function, then write the code changes. 
+- If the code involves using a method on your code, remember to always look at tutorial code in the github repo/package first. Always start with the code in the tutorial and modify them to match the input/output requirement.
 - Classes are permitted, but only make a class of the central object if there are many attributes added to that class. If the main object in that class is directly from another known package class, i.e. the variable msot used is already an object, avoid making it as a class.
 - Alway use the herdr interface to spawn sub-agents.
 - Spawn a separate agent to review the code using the rules from CODEFORMAT.md. Flag the code and made changes while still consistent with the code asethetics in this .md file.
